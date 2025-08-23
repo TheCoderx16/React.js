@@ -1,0 +1,29 @@
+img{
+ max-width: 100;
+max-height: 100;
+}
+.card{
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px black;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    max-width: 250px;
+}
+.card .card-image{
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.card .card-title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: rgb(63, 61, 61);
+}
+.card .card-text{
+    color: hsl(0 ,0% ,30%);
+    font-family: 'Times New Roman', Times, serif;
+}
