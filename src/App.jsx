@@ -1,5 +1,7 @@
 
-import Card from "./Card.jsx";
+
+import Button from "./Button.jsx";
+import List from "./List.jsx";
 
 
 function App(){
@@ -7,13 +9,10 @@ function App(){
   return(
    
     <>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
+      <Button name = "bro"/>
+
     </>
-  )
-  
+  )  
 }
 
 
